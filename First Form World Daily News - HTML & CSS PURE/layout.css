@@ -1,0 +1,115 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/background_form.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main_form{  /*Conteiner do formulario*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 60px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    .element_form{  /*Aqui onde você parou, não pare você vai conseguir algum momento!!*/
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+        padding: 2ch;
+        border-radius: 1mm;
+        background-color: #252522;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    }
+    .element_form h1{ /*O seletor do fomulário associado ao titulo e paragráfo presentes*/
+        margin: 2mm 0 0mm 0;
+        text-align: center;
+        font-size: 22px;
+        
+    }
+    .description_of_forms{
+        font-size: 13px;
+        display: flex;
+        flex-direction: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 300px;
+        height: auto;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    .element_logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .element_form label{ /*O seletor do fomulário associado ao label*/
+        margin: 2mm 0 3mm 0;
+        font-size: 14px;
+    }
+    .element_form button{/*O seletor do fomulário associado ao butão*/
+        transition: 0.5s;
+        border: none;
+        padding: 1.4mm;
+        margin: 5mm 0 2mm 0;
+        border-radius: 4mm;
+        background-color: #b4c4cc;
+    }
+        .element_form button:hover{
+            transition: 0.5s;
+            opacity: 80%;
+        }
+    .element_form input{ /*O seletor do fomulário associado a entrada de dados digitados pelo usuário.*/
+        transition: 0.5s;
+        outline: none;
+        padding: 1.2mm;
+        border: none;
+        border-radius: 4mm;
+    }
+        .element_form input:focus{
+            border-radius: 2mm;
+        }
+    .conteiner_terms{
+        font-size: 10px;
+        text-align: justify;
+    }
+        .conteiner_terms a{
+            text-decoration: none; /* remove o sublinhado padrão */
+            color: #007bff; /* altera a cor do texto do link */
+            border-bottom: 1px solid #007bff; /* adiciona uma borda na parte inferior do link */
+            transition: all 0.3s ease-in-out; /* adiciona um efeito de transição */ 
+        }
+        .conteiner_terms a:hover{
+            color: #0056b3; /* altera a cor do texto do link quando o mouse passa sobre */
+            border-bottom: 1px solid #0056b3; /* altera a cor da borda quando o mouse passa sobre */
+        }
+    .element_social_media{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        padding: 14px 0 10px 0;
+    }
+        .element_social_media a{
+            transition: 0.5s;
+        }
+        .element_social_media a:hover{
+            transition: 0.5s;
+            opacity: 50%;
+        }
+    
