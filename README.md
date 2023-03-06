@@ -1,5 +1,6 @@
 # First-Form-World-Daily-News---HTML-CSS-PURE
-Olá, esse pequeno projeto de um formulário em html e css puro foi desenvolvido para fins de estudo e prática!
+Olá, esse pequeno projeto de um formulário em html e css puro foi desenvolvido para fins de estudo e prática! O formulário seria para receber noticias diarias pelo email após o usuário se cadastrar, a empresa de jornalismo teria o nome "World Daily News".
+
 A estrutura HTML pode ser descrito da seguinte forma:
 
 - Inicialmente, há uma div com a classe "main_form" que contém um formulário com a classe "element_form". O formulário contém um cabeçalho com o título "Junte-se a World Daily News!" e um parágrafo com uma descrição.
